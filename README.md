@@ -5,7 +5,7 @@
 Prerequisites: User has access to NVIDIA GPUs and CUDA Computing Toolkit on either a local or remote machine.
 
 1. Download or clone repository
-2. Go to the link and download the Training.zip and Testing.zip dataset files.
+2. Go to the dataset link and download the Training.zip and Testing.zip dataset files.
 3. Place the two zip files in the "Classifier" folder 
 4. Run preprocessing ipynb file
 5. Run training file
