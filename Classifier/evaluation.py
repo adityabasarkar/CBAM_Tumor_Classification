@@ -286,8 +286,11 @@ def evaluate(test_set, loaded_model):
 
     # Calculate evaluation metrics
     accuracy = (truePositive + trueNegative) / len(test_set)
+
     precision = truePositive / (truePositive + falsePositive) if (truePositive + falsePositive) != 0 else 0
+
     recall = truePositive / (truePositive + falseNegative) if (truePositive + falseNegative) != 0 else 0
+    
     f1_score = (2 * truePositive) / (2 * truePositive + falsePositive + falseNegative) if (2 * truePositive + falsePositive + falseNegative) != 0 else 0
 
     
